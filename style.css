@@ -1,0 +1,412 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 0px;
+}
+
+.navbar{
+  display: flex;
+  height: 70px;
+  background-color: orange;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 5px;
+  background-image: url(.."cover.jpeg"); 
+}
+
+.flex {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cook{ height: 25px;
+  width: 20px;
+  padding: ;
+}
+
+ul{
+  list-style-type: none; 
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar ul{
+  display: flex;
+  
+}
+
+.navbar a.active{
+ /* padding: 10px;
+  justify-content: center;*/
+  justify-content: space-between;
+  padding: 1px;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar a:hover, .navbar a.active{
+  border-bottom: 2px white solid;
+  border-radius: 2px;
+  
+}
+
+.navbar a:hover{
+  transform: translate(-50% -50%)
+}
+
+.logo span{
+  color: red;
+}
+.bg, .sbg{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  align-items: center;
+}
+
+h1, p, .p{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 30px;
+  font-size: 20px;
+  
+}
+
+.log, .secs, .slog {
+  font-size: 30px;
+  color: red;
+  border-shadow: black;
+}
+
+.slog {
+  justify-content: center;
+}
+
+p{
+  color: white;
+  font-size: 25px;
+  padding: 0;
+}
+
+.btn{
+  position: relative;
+  justify-content: center;
+  display: flex;
+  background: orange;
+  border-radius: 25px; 
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+button{
+  display: flex;
+  margin: 0 270px;
+  border-radius: 25px;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.package{
+  padding-top: 80px;
+  background: gray;
+  padding-bottom: 10px;
+}
+
+.pd, .food, .food1, .food2, .food3{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+.caty{
+  background-color: gray;
+  color: orange;
+  height: 40px;
+  align-items: center;
+}
+
+.package li{
+  list-style: none;
+  }
+
+.package ul{
+  display: flex;
+}
+
+.package ul li a{
+  align-content: center;
+}
+
+.package a{
+  padding: 10px;
+  justify-content: center;
+  
+}
+
+.copy{ background: gray;
+  color: black;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  align-items: center;
+  position: sticky;
+}
+
+.wwo{
+  color: blue;
+  font-size: 15px;
+}
+
+.btn1{
+  display: grid;
+  background: orange;
+  border-radius: 25px; 
+  padding: 2px 4px;
+  margin: 10px;
+}
+
+.socials{
+  width: 5%;
+  height: 15px;
+  color: white;
+  background: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+video{
+  width: 100%;
+}
+
+
+.footer{
+  width: 100%;
+}
+
+
+
+h3 .title{
+  background: orange;
+  
+}
+
+.pay{
+  height: 20px;
+  width: 30px;
+  padding: 2px;
+  border-radius: 5px;
+  background: orange;
+}
+
+.btn3, .font{
+  position: relative ;
+  justify-content: center;
+  display: flex;
+  background: orange;
+  border-radius: 10px; 
+  padding: 0 4px;
+  width: 70px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.btn4, font1{
+  position: relative ;
+  justify-content: center;
+  display: flex;
+  background: orange;
+  border-radius: 10px; 
+  padding: 0 4px;
+  width: 40px;
+  font-size: 2px;
+}
+
+.bck{
+  position: relative ;
+  justify-content: center;
+  display: flex;
+  background: orange;
+  border-radius: 10px; 
+  padding: 0 4px;
+  width: 25px;
+  font-size: 10px;
+  padding: 5px;
+}
+
+
+
+
+@media (max-width: 468px){
+  .navbar{
+    height: 110px;
+  }
+  .navbar, .flex{
+    flex-direction: column;
+  }
+  .navbar ul{
+    padding: 10px;
+    align-items: center;
+    }
+  
+  h1{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      /* padding: 30px; */
+      font-size: 20px;
+    }
+
+  .navbar ul {
+      padding: 5px;
+      align-items: center;
+    }
+
+  .navbar a{
+      padding: 5px;
+      justify-content: center;
+    }
+    
+  p, .p {
+      /* display: flex; */
+      /*justify-content: center;*/
+      position: relative;
+      text-align: center;
+      /* padding: 30px; */
+      /* font-size: 20px; */
+    p {
+        color: #FFF;
+        font-size: 15px;
+        padding: 0px;
+      }
+    }
+
+  button {
+      display: flex;
+      margin: 0px 130px;
+      border-radius: 25px;
+      padding: 0px 2px;
+      align-content: center;
+    }
+
+  .bg, .sbg {
+      width: 100%;
+      height: 220px;
+      position: absolute;
+      align-items: center;
+    }
+
+  h1, p, .p {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      padding: 5px;
+      font-size: 20px;
+    }
+
+  .pd{
+    width: 100%;
+    height: 150px;
+    padding: 5px 10px
+  }
+  /*.footer{
+    background: gray;
+    width: 100%;
+    margin-top: 1200px;
+    padding-bottom: 0px;
+  }*/
+
+  .service{
+    background-color: brown;
+    color: white;
+    height: 45px;
+    text-align: center;
+  }
+
+  .about, .blog{
+    width: 100%;
+    padding: 0 35px;
+    height: 250px;
+  }
+ .p{
+   color: black;
+   font-size: 12px;
+ }
+ p span{
+   color: red;
+ }
+
+ .map{
+   width: 100%;
+ }
+  h4{
+    text-align: center;
+  }     
+
+ .address{
+    background-color:lightgrey;
+  }
+ 
+.footer{
+    width: 100%;
+    align-content: bottom;
+  }
+  
+.copy1, .copy, .copy3, .copy4{
+  background-color: gray;
+  color: black;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: end;
+}  
+
+.copy1{
+  margin-top: 1150px;
+}
+
+.copy2{
+  margin-top: 150px;
+  background-color: gray;
+  color: black;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  align-items: center;
+  margin-right: 0.01px;
+  margin-right: 0.01px;
+}  
+
+.copy3{
+  margin-top: 3150px;
+}
+.copy4{
+  margin-top: 3150px;
+}
+
+.containercard form{
+  margin-left: 15%;
+}
+
+}
